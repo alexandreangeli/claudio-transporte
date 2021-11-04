@@ -1,0 +1,50 @@
+.btn {
+  cursor: pointer;
+  outline: none;
+  height: 50px;
+  min-width: 200px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  & > * {
+    margin: 0 5px;
+  }
+
+  &:hover {
+    filter: brightness(85%);
+  }
+
+  &:active {
+    filter: brightness(115%);
+  }
+}
+
+.btn-icon {
+  @extend .btn;
+  height: unset;
+  min-width: unset;
+  background-color: transparent;
+  border: none;
+}
+
+.btn-contained {
+  @extend .btn;
+  border: 0;
+  background: $black;
+  color: $white;
+}
+
+.btn-outlined {
+  @extend .btn;
+  border: 1px solid $black;
+  background: $white;
+  color: $black;
+}
+
+.btn-whats {
+  @extend .btn-contained;
+  background: $whats;
+}
