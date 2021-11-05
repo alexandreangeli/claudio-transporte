@@ -1,6 +1,6 @@
 <template>
   <div class="service-card">
-    <Icon :icon="icon" :size="50" />
+    <MdiIcon :icon="icon" :size="50" />
     <div>
       <h3>{{ title }}</h3>
       <p>

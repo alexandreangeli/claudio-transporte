@@ -3,11 +3,11 @@
     <div class="infobar-inner">
       <div class="infobar-group">
         <div class="infobar-group-item">
-          <Icon icon="map-marker" class="infobar-group-icon" />
+          <MdiIcon icon="map-marker" class="infobar-group-icon" />
           Cascavel - PR
         </div>
         <div class="infobar-group-item infobar-group-item-phone">
-          <Icon icon="phone" class="infobar-group-icon" />
+          <MdiIcon icon="phone" class="infobar-group-icon" />
           {{ formattedNumber }}
         </div>
       </div>
@@ -17,21 +17,21 @@
           target="_blank"
           class="infobar-group-item btn-icon"
         >
-          <Icon icon="facebook" :size="iconSize" />
+          <MdiIcon icon="facebook" :size="iconSize" />
         </a>
         <a
           :href="INSTAGRAM_URL"
           target="_blank"
           class="infobar-group-item btn-icon"
         >
-          <Icon icon="instagram" :size="iconSize" />
+          <MdiIcon icon="instagram" :size="iconSize" />
         </a>
         <a
           :href="WHATSAPP_URL"
           target="_blank"
           class="infobar-group-item btn-icon"
         >
-          <Icon icon="whatsapp" :size="iconSize" />
+          <MdiIcon icon="whatsapp" :size="iconSize" />
         </a>
       </div>
     </div>

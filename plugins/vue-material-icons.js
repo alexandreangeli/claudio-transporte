@@ -1,6 +1,6 @@
 import Vue from "vue";
-import Icon from "./Icon";
+import MdiIcon from "./MdiIcon";
 
 export default function materialIcons() {
-  Vue.component("Icon", Icon);
+  Vue.component("MdiIcon", MdiIcon);
 }

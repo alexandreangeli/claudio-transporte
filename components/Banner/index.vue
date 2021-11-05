@@ -10,7 +10,7 @@
       <p class="banner-phone">{{ formattedNumber }}</p>
       <div class="banner-buttons">
         <a class="btn-whats" :href="WHATSAPP_URL" target="_blank">
-          <Icon icon="whatsapp" :size="20" />
+          <MdiIcon icon="whatsapp" :size="20" />
           Iniciar conversa
         </a>
         <a
@@ -18,7 +18,7 @@
           :href="PHONE_URL"
           target="_blank"
         >
-          <Icon icon="phone" :size="20" />
+          <MdiIcon icon="phone" :size="20" />
           Ligar
         </a>
       </div>
