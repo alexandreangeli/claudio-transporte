@@ -35,6 +35,6 @@ export default {
   justify-content: space-between;
   color: $white;
   text-align: center;
-  padding: 0 10px;
+  padding: 10px;
 }
 </style>
