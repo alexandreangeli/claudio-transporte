@@ -5,4 +5,4 @@ export const FACEBOOK_URL =
 export const INSTAGRAM_URL =
   "https://www.instagram.com/claudiotransportedemotos/";
 export const WHATSAPP_URL = `https://wa.me/55${PHONE_NUMBER}`;
-export const PHONE_URL = `tel:550${PHONE_NUMBER}`;
+export const PHONE_URL = `tel:0${PHONE_NUMBER}`;

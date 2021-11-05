@@ -1,14 +1,22 @@
 <template>
   <div id="footer" class="footer-outer">
     <div class="footer-inner">
-      <div>Copyright © 2021 Cláudio Transporte e Resgate de Motos</div>
+      <div>Copyright © 2021 {{ COMPANY_NAME }}</div>
       <div>Powered by Alexangeli Systems</div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import { COMPANY_NAME } from "@/constants";
+
+export default {
+  data() {
+    return {
+      COMPANY_NAME,
+    };
+  },
+};
 </script>
 
 <style scoped lang="scss">

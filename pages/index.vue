@@ -10,10 +10,11 @@
 </template>
 
 <script>
+import { COMPANY_NAME } from "@/constants/index.js";
 export default {
   head() {
     return {
-      title: "Cláudio Transporte e Resgate de Motos",
+      title: COMPANY_NAME,
     };
   },
 };
