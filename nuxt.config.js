@@ -2,7 +2,13 @@ export default {
   target: "static",
   css: ["@/assets/scss/index.scss"],
   head: {
-    meta: [{ name: "viewport", content: "width=device-width" }],
+    meta: [
+      { name: "viewport", content: "width=device-width" },
+      {
+        name: "google-site-verification",
+        content: "googlec3779c504f1b7cf6.html",
+      },
+    ],
   },
   components: true,
   plugins: [{ src: "@/plugins/vue-material-icons", mode: "client" }],
