@@ -10,5 +10,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: "Cláudio Transporte e Resgate de Motos",
+    };
+  },
+};
 </script>
