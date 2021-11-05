@@ -15,7 +15,6 @@ export default {};
   padding: 75px 50px;
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
   position: relative;
 }
 

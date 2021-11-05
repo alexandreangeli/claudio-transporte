@@ -1,10 +1,13 @@
 <template>
   <Page>
     <h2>Transporte de motos é o nosso negócio!</h2>
-    <p>
+    <p class="company-description">
       Somos a solução definitiva quando o assunto é o transporte de
-      motocicletas. Socorro 24 horas, com segurança, qualidade, e atendimento
-      imediato em toda área de Cascavel e região.
+      motocicletas.
+      <strong>Socorro 24 horas,</strong>
+      com segurança, qualidade, e atendimento imediato em toda área de
+      <strong>Cascavel</strong>
+      e região.
     </p>
 
     <div class="company-cards">
@@ -19,8 +22,8 @@
       <div class="company-card">
         <h3>Como pagar pelo seu guincho de moto?</h3>
         <p>
-          Aceitamos as maiores formas de pagamento pelo nossos serviços de moto
-          guincho, dinheiro, cartões de crédito e débito e PIX.
+          Aceitamos as maiores formas de pagamento para nossos serviços de moto
+          guincho: dinheiro, cartões de crédito e débito e PIX.
         </p>
       </div>
       <div class="company-card">
@@ -49,6 +52,9 @@ export default {};
 #company {
   background: $ice;
 }
+.company-description {
+  text-align: center;
+}
 .company-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -64,5 +70,8 @@ export default {};
   border: 1px solid $gray;
   border-radius: 4px;
   padding: 0 15px 5px 15px;
+}
+.company-card h3 {
+  color: $red;
 }
 </style>

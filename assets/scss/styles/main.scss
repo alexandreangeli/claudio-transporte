@@ -1,6 +1,25 @@
 * {
   scroll-behavior: smooth;
   font-family: "Open Sans";
+  box-sizing: border-box;
+}
+
+p,
+path,
+h1,
+h2,
+h3,
+h4 {
+  color: $black;
+  color: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
 }
 
 body {

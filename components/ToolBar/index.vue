@@ -1,7 +1,7 @@
 <template>
   <div ref="toolbarRef" class="toolbar-outer">
     <div class="toolbar-inner">
-      <a href="#banner" class="toolbar-item btn-icon">Início</a>
+      <a href="#infobar" class="toolbar-item btn-icon">Início</a>
       <a href="#company" class="toolbar-item btn-icon">Empresa</a>
       <a href="#services" class="toolbar-item btn-icon">Serviços</a>
     </div>

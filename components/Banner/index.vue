@@ -5,16 +5,20 @@
     <div class="banner-text">
       <img src="~/assets/images/logo.png" class="banner-logo" />
       <p class="banner-description">
-        Conte conosco 24 horas por dia 365 dias por ano!
+        Conte conosco 24 horas por dia, 365 dias por ano!
       </p>
       <p class="banner-phone">{{ formattedNumber }}</p>
       <div class="banner-buttons">
         <a class="btn-whats" :href="WHATSAPP_URL" target="_blank">
-          <whatsapp-icon :size="20" />
+          <Icon icon="whatsapp" :size="20" />
           Iniciar conversa
         </a>
-        <a class="btn-contained" :href="PHONE_URL" target="_blank">
-          <phone-icon :size="20" />
+        <a
+          class="btn-contained banner-buttons-call"
+          :href="PHONE_URL"
+          target="_blank"
+        >
+          <Icon icon="phone" :size="20" />
           Ligar
         </a>
       </div>
@@ -40,16 +44,15 @@ export default {
       PHONE_URL,
     };
   },
-  methods: {},
 };
 </script>
 
 <style scoped lang="scss">
 #banner {
-  height: 100vh;
+  height: calc(100vh - $infobarHeight);
   background: $gray;
-  color: $white;
   overflow: hidden;
+  color: $white;
 }
 
 .banner-background {
@@ -65,6 +68,7 @@ export default {
 .banner-logo {
   height: 35%;
   min-height: 175px;
+  max-height: 300px;
 }
 
 .banner-overlay {
@@ -96,7 +100,10 @@ export default {
 }
 
 .banner-description {
-  font-size: 18px;
+  font-size: 20px;
+  @media (max-height: 600px) {
+    display: none !important;
+  }
 }
 
 .banner-phone {
@@ -107,6 +114,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .banner-buttons > * {
