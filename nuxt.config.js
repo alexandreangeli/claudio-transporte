@@ -6,7 +6,7 @@ export default {
       { name: "viewport", content: "width=device-width" },
       {
         name: "google-site-verification",
-        content: "googlec3779c504f1b7cf6.html",
+        content: "5l968c3Y4q09l5Z8FCYBHjRaPArd7XBkd7Ootf7AAuM",
       },
     ],
   },
