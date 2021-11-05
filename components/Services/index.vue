@@ -15,7 +15,7 @@
       <ServiceCard
         icon="battery-charging-10"
         title="Pane elétrica"
-        description="Esqueceu o som ligado, a porta aberta, ou farol ligado?. Vamos até o local com auxiliar de partida, fazendo por exemplo uma recarga na bateria."
+        description="Esqueceu o som ligado, a porta aberta, ou farol ligado? Vamos até o local com auxiliar de partida, fazendo por exemplo uma recarga na bateria."
       />
       <ServiceCard
         icon="tow-truck"
