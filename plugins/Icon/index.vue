@@ -18,7 +18,7 @@ import TowTruck from "vue-material-design-icons/TowTruck";
 export default {
   props: {
     icon: {
-      type: "string",
+      type: String,
       required: true,
     },
   },
