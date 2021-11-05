@@ -1,6 +1,8 @@
 <template>
   <div class="service-card">
-    <MdiIcon :icon="icon" :size="50" />
+    <div class="icon-wrapper">
+      <MdiIcon :icon="icon" :size="50" />
+    </div>
     <div>
       <h3>{{ title }}</h3>
       <p>
@@ -29,7 +31,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .service-card {
   align-items: center;
   display: flex;

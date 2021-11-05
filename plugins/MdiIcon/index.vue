@@ -1,7 +1,5 @@
 <template>
-  <div class="icon-wrapper">
-    <component :is="iconComponent" v-bind="$attrs" />
-  </div>
+  <component :is="iconComponent" v-bind="$attrs" />
 </template>
 
 <script>
@@ -61,11 +59,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.icon-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-</style>
